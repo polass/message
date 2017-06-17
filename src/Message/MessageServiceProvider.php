@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Providers;
+namespace Polass\Message;
 
 use Illuminate\Support\ServiceProvider;
 use Polass\Message\Message;
 use Polass\Message\MessageManager;
 use Polass\Message\SessionMessageRepository;
 
-class ViewComposerProvider extends ServiceProvider
+class MessageServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
