@@ -14,6 +14,6 @@ class Message extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return MessageManager::class;
+        return 'polass.message.manager';
     }
 }
